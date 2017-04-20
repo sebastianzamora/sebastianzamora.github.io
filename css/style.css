@@ -1,3 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Poppins:400,700');
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
 body {
   background: #00EB7F;
+}
+div.wrapper {
+	width:60%;
+  height: 100%;
+	margin-left: 10%;
+
+  display: table;
+}
+
+div.abc {
+  vertical-align:middle;
+  display: table-cell;
+}
+
+h1,h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 4em;
+  letter-spacing: -0.03em;
+	color: #fff;
+	font-weight:700;
+	margin: 0;
+}
+
+h2 {
+  font-weight:400;
+  font-size: 2em;
+  margin-top: 0;
+  color: #242424;
+}
+
+
+p {
+	font-family: 'Inconsolata', monospace;
+	font-size: 1em;
+  line-height: 1.5em;
+	color: #242424;
+}
+
+a {
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none;
+	color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#downloadButton {
+  font-family: 'Inconsolata', monospace;
+  color: #FFF;
+  background: #242424;
+  padding: 0.4em 1em;
+  text-decoration: none;
+  border-radius: 0.2em;
+  transition: box-shadow 1s;
+}
+
+#downloadButton:hover {
+  box-shadow: 2px 20px 30px 4px #07C36C;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  	h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 0.8em;
+}
+
+div.wrapper {
+	width:70%;
+	margin-bottom: 20%;
+}
+
 }
