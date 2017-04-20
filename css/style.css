@@ -75,12 +75,17 @@ h1 {
 	font-size: 3.5em;
   line-height: 1em;
 }
+
 h2 {
   font-size: 1.6em;
 }
 
 p {
 	font-size: 1em;
+}
+
+#downloadButton {
+  padding: 1em 2em;
 }
 
 div.wrapper {
