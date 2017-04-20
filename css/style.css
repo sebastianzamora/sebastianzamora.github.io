@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Poppins:400,700');
 
 html,body {
   height: 100%;
@@ -48,11 +48,13 @@ a {
   font-family: 'Inconsolata', monospace;
   text-decoration: none;
 	color: #FFF;
+  font-weight: 700;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
 #downloadButton {
   font-family: 'Inconsolata', monospace;
   color: #FFF;
@@ -86,6 +88,10 @@ p {
 
 #downloadButton {
   padding: 1em 2em;
+}
+
+#juan {
+  display: none;
 }
 
 div.wrapper {
