@@ -58,6 +58,7 @@ a:hover {
   color: #FFF;
   background: #242424;
   padding: 0.4em 1em;
+  display: inherit;
   text-decoration: none;
   border-radius: 0.2em;
   transition: box-shadow 1s;
