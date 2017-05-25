@@ -8,63 +8,65 @@ body {
   background: #005fc9;
 }
 div.wrapper {
-	width:60%;
+  align-items: center;
+  display: flex;
   height: 100%;
+  justify-content: center;
 	margin-left: 10%;
-
-  display: table;
+	width:80%;
 }
 
-div.abc {
-  vertical-align:middle;
-  display: table-cell;
+section.informacion {
+  display: flex;
+	flex-wrap: wrap;
 }
 
 h1,h2 {
+	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	font-size: 4em;
-  letter-spacing: -0.03em;
-	color: #fff;
 	font-weight:700;
+  letter-spacing: -0.03em;
 	margin: 0;
+  flex:1 1 70%;
 }
 
 h2 {
-  font-weight:400;
-  font-size: 2em;
-  margin-top: 0;
   color: #00eb7f;
+  font-size: 2em;
+  font-weight:400;
+  margin-top: 0;
 }
 
 
 p {
+	color: #FFF;
 	font-family: 'Inconsolata', monospace;
 	font-size: 1em;
   line-height: 1.5em;
-	color: #FFF;
 }
 
 a {
-  font-family: 'Inconsolata', monospace;
 
 	color: #FFF;
+  font-family: 'Inconsolata', monospace;
   font-weight: 700;
 }
 
 a:hover {
-  text-decoration: none;
   color: #00eb7f;
+  text-decoration: none;
 }
 
 #downloadButton {
-  font-family: 'Inconsolata', monospace;
-  color: #000;
   background: #00eb7f;
-  padding: 0.4em 1em;
-  display: inherit;
-  text-decoration: none;
   border-radius: 0.2em;
-  transition: box-shadow 1s;
+  color: #000;
+  display: inherit;
+  font-family: 'Inconsolata', monospace;
+  padding: 1em 2em;
+  text-decoration: none;
+  transition: box-shadow 0.5s;
 }
 
 #downloadButton:hover {
@@ -87,8 +89,8 @@ p {
 }
 
 #downloadButton {
-  padding: 1em 2em;
-  box-shadow: none
+  box-shadow: none;
+  padding: 1em 2em
 }
 
 #juan {
@@ -96,8 +98,8 @@ p {
 }
 
 div.wrapper {
-	width:70%;
 	margin-bottom: 20%;
+	width:70%;
 }
 
 }
