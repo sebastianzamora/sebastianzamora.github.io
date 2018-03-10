@@ -1,122 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 
 html,body {
-  height: 100%;
   margin: 0;
-}
-body {
-  background: #005fc9;
-}
-div.wrapper {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-	margin-left: 10%;
-	width:50%;
-}
-
-section.informacion {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-	-ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-h1,h2 {
-	color: #fff;
-	font-family: 'Poppins', sans-serif;
-	font-size: 4em;
-	font-weight:700;
-  letter-spacing: -0.03em;
-	margin: 0;
-  -webkit-box-flex:1;
-  -ms-flex:1 1 70%;
-  flex:1 1 70%;
-}
-
-h2 {
-  color: #00eb7f;
-  font-size: 2em;
-  font-weight:400;
-  margin-top: 0;
-}
-
-
-p {
-	color: #FFF;
-	font-family: 'Inconsolata', monospace;
-	font-size: 1em;
-  line-height: 1.5em;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
-
-	color: #FFF;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 700;
-}
-
-a:hover {
-  color: #00eb7f;
+  color: rgb(255, 48, 102);
   text-decoration: none;
 }
 
-#downloadButton {
-  background: #00eb7f;
-  border-radius: 0.2em;
-  color: #000;
-  display: inherit;
-  font-family: 'Inconsolata', monospace;
-  padding: 1em 2em;
-  text-decoration: none;
-  -webkit-transition: -webkit-box-shadow 0.5s;
-  transition: -webkit-box-shadow 0.5s;
-  transition: box-shadow 0.5s;
-  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+a#resume {
+  border-bottom: 1px solid transparent;
+  transition: all ease 0.5s;
 }
 
-#downloadButton:hover {
-  -webkit-box-shadow: 2px 20px 30px 4px #04458e;
-          box-shadow: 2px 20px 30px 4px #04458e;
+a#resume:hover {
+  border-color: rgb(255, 48, 102);
 }
 
-@media only screen and (max-width: 600px) {
+.social-icons {
+  margin-top: 1em;
+}
+
+.icon-margin {
+  margin: 0.60em;
+}
 
 h1 {
-	font-size: 3.5em;
-  line-height: 1em;
+  font-weight: 900;
+  font-size: 3em;
+  margin: 0 0 0.30em 0;
 }
 
-h2 {
-  font-size: 1.6em;
+h4 {
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
 }
 
-p {
-	font-size: 1em;
-  line-height: 2em;
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#downloadButton {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  padding: 1em 2em
+.dribbble, .cargo, .medium, .linkedin, .twitter, .gmail {
+  width: 32px;
+  fill: #000;
+  fill-rule: evenodd;
+  transition: fill 0.5s ease;
 }
 
-#juan {
-  display: none;
+.dribbble:hover {
+  fill: #EA4C89;
 }
 
-div.wrapper {
-	margin-bottom: 20%;
-	width:70%;
+.cargo:hover {
+  fill: #0FCE83;
 }
 
+.medium:hover {
+  fill: #00AB6C;
+}
+
+.linkedin:hover {
+  fill: #0077B5;
+}
+
+.twitter:hover {
+  fill: #1DA1F2;
+}
+
+.gmail:hover {
+  fill: #DD4B39;
 }
